@@ -1,105 +1,227 @@
-# Parspec Datasheet Retrieval — Submission-Ready App
+# Parspec Retrieval Command Center
 
-Full-stack retrieval system for product datasheets across Mechanical, Plumbing, Lighting/Electrical, and HVAC-like samples.
+AI-powered product datasheet retrieval system for manufacturer PDFs.
+
+This project is a full-stack application developed to retrieve the most relevant product datasheet sections from real manufacturer PDF documents. It is designed to handle practical PDF challenges such as multi-column layouts, table-heavy content, and OCR fallback, while also providing transparent evaluation and evidence views.
+
+## Overview
+
+The system takes a natural-language product query and returns the most relevant document section from the indexed PDF corpus.
+
+It supports:
+
+- PDF ingestion
+- OCR-aware extraction
+- Multi-column parsing
+- Table-aware chunking
+- Hybrid retrieval
+- Confidence-aware ranking
+- Query evaluation
+- Evidence inspection
+- Report export
+
+The project includes a FastAPI backend and a React/Vite frontend.
 
 ## Features
 
-- FastAPI backend and React/Vite frontend
-- PDF upload, ingestion, chunking, indexing, and search
-- PyMuPDF + pdfplumber extraction
-- OCR path for scanned/image-only PDFs with Tesseract/Poppler diagnostics
-- Multi-column detection and column-aware extraction
-- Table-aware row-atomic chunks preserving headers on every row
-- Spec/entity extraction for model numbers, manufacturer, domain, material, finish, dimensions, CFM, GPM, lumens, watts, voltage, CCT, CRI, LPW, PSI, BTU, dB, certifications, and dimming
-- Hybrid retrieval: BM25 + TF-IDF + optional dense embeddings with RRF fusion
-- Exact model-number search and comparable-product mode
-- Explainability API and frontend “Why this matched” cards
-- Evidence page and evaluation dashboard
-- One-command scripts and Docker support
+### Backend
+- PDF parsing and document ingestion
+- OCR fallback for weak or scanned text extraction
+- Multi-column layout handling
+- Section-aware and table-aware chunking
+- Hybrid retrieval using sparse and dense methods
+- Exact model-number matching support
+- Reranking for improved result quality
+- Evaluation pipeline for retrieval performance
 
-## Quick Start
+### Frontend
+- Search interface for natural-language queries
+- Documents page for ingestion and indexing status
+- Evidence page for extraction diagnostics
+- Evaluation dashboard with metrics and query-level results
+- Settings page showing runtime capabilities and system status
+
+## Project Structure
 
 ```bash
+parspec-retrieval-command-center/
+│
+├── backend/                  # FastAPI backend
+│   ├── app/                  # API routes and backend logic
+│   ├── data/                 # PDFs, chunks, indexes, outputs
+│   ├── eval/                 # Evaluation queries and outputs
+│   ├── tests/                # Backend tests
+│   └── requirements.txt
+│
+├── frontend/                 # React + Vite frontend
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── screenshots/              # UI screenshots used for report
+├── README.md
+└── report.tex                # LaTeX write-up / submission report
+````
+
+## System Workflow
+
+1. User uploads manufacturer datasheet PDFs.
+2. Backend stores the raw documents.
+3. Parser attempts normal text extraction.
+4. If extraction is weak, OCR is used as fallback.
+5. Multi-column layout detection preserves reading order.
+6. The system creates section-aware and table-aware chunks.
+7. Important structured specifications are extracted.
+8. Sparse and dense indexes are built.
+9. User submits a natural-language query.
+10. Hybrid retrieval and reranking are applied.
+11. Frontend displays ranked results with confidence and explanation.
+12. Evaluation can be run to measure retrieval quality and latency.
+
+## Retrieval Logic
+
+The ranking combines lexical, semantic, and rule-based signals.
+
+A simplified scoring idea is:
+
+```math
+S_final = S_hybrid + B_model + B_numeric + B_finish + B_section - P_weak
+```
+
+Where:
+
+* `S_hybrid` = combined sparse and dense retrieval score
+* `B_model` = boost for exact model-number match
+* `B_numeric` = boost for matching numeric specifications
+* `B_finish` = boost for matching material or finish terms
+* `B_section` = boost for relevant section type
+* `P_weak` = penalty for weak or unrelated matches
+
+## Example Query Types Supported
+
+The application is designed to support:
+
+* Spec-heavy queries
+  Example: `6" recessed downlight, 3000K, black trim, dimmable`
+
+* Rough product descriptions
+  Example: `stainless kitchen sink single bowl undermount`
+
+* Exact model-number queries
+  Example: `KBF514`
+
+* Comparable-product queries
+
+* OCR/scanned PDF cases
+
+* Multi-column and table-heavy datasheets
+
+* No-match queries
+
+## Evaluation Metrics
+
+The evaluation dashboard reports:
+
+* Top-1 Accuracy
+* Top-3 Accuracy
+* Section Accuracy
+* Mean Reciprocal Rank (MRR)
+* No-Match Accuracy
+* Average Latency
+* Query-level result details
+
+This helps verify not only overall performance, but also how the system behaves for individual queries.
+
+## How to Run
+
+## 1. Backend Setup
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-cd frontend && npm install && cd ..
-python backend/scripts/create_sample_pdfs.py
-python backend/scripts/build_index.py
-./start.sh
 ```
 
-Open:
-
-- Frontend: http://localhost:5173
-- Backend docs: http://127.0.0.1:8000/docs
-
-## Reset and Run Backend Only
+Run backend:
 
 ```bash
-./reset_and_run.sh
+uvicorn app.main:app --reload
 ```
 
-## Docker
+## 2. Frontend Setup
 
 ```bash
-docker compose up --build
+cd frontend
+npm install
+npm run dev
 ```
 
-## Tests and Evaluation
+## 3. Open Application
+
+Frontend usually runs at:
 
 ```bash
-python -m pytest tests -v
-python backend/scripts/evaluate.py
+http://localhost:5173
 ```
 
-## Demo Flow
-
-1. Run `./start.sh`.
-2. Open http://localhost:5173.
-3. Show Settings status: backend, OCR, BM25, dense, index.
-4. Create sample PDFs or upload your own.
-5. Click Build / Refresh Index.
-6. Open Documents and Evidence pages.
-7. Search: `6" recessed downlight, 3000K, black trim, dimmable`.
-8. Search: `KBF514`.
-9. Search: `Karran KBF514 find comparable products`.
-10. Search: `industrial boiler 500 PSI steam` and show no/low-confidence behavior.
-11. Run Evaluation Dashboard.
-12. Export report.
-
-
-## Testing with Real PDFs
-
-The system can be tested against both synthetic PDFs and real-world manufacturer datasheets from the assignment.
+Backend usually runs at:
 
 ```bash
-# Download the 6 real PDFs referenced in the assignment
-python backend/scripts/download_real_pdfs.py
-
-# Rebuild index with the current embedding model
-python backend/scripts/build_index.py
-
-# Run evaluation against synthetic and real PDFs
-python backend/scripts/evaluate.py --query-file eval/queries.json
-python backend/scripts/evaluate.py --query-file eval/real_pdf_queries.json
+http://localhost:8000
 ```
 
-### Real PDF Evaluation Results
+## Suggested Submission Flow
 
-| Metric | Synthetic PDFs | Real PDFs |
-|--------|---------------|-----------|
-| Top-1 Accuracy | Run eval | Run eval |
-| Top-3 Accuracy | Run eval | Run eval |
-| MRR | Run eval | Run eval |
-| Section Accuracy | Run eval | Run eval |
+A typical run can follow this order:
 
-Real-PDF accuracy may be lower than synthetic accuracy because manufacturer PDFs contain irregular layouts, merged table cells, embedded images, inconsistent catalog formatting, and OCR noise. The separate eval set makes that gap visible instead of hiding it behind clean generated samples.
+1. Start backend
+2. Start frontend
+3. Upload or load PDFs
+4. Build the retrieval index
+5. Run sample queries
+6. Inspect extraction evidence
+7. Run evaluation
+8. Export results if required
 
-## Known Limitations
+## Notes
 
-See `FAILURE_CASES.md`.
+* The system is built to demonstrate an end-to-end retrieval pipeline rather than only an isolated model.
+* The focus is on practical document retrieval for real PDF layouts.
+* The Evidence and Evaluation pages are included to make the pipeline more transparent and easier to inspect.
 
-## Scaling Plan
+## Tech Stack
 
-See `SCALING.md`.
+### Backend
 
+* Python
+* FastAPI
+* OCR tools
+* Sparse retrieval
+* Dense retrieval
+* Reranking pipeline
 
+### Frontend
+
+* React
+* Vite
+* TypeScript
+
+## Future Improvements
+
+Possible next improvements include:
+
+* Better section-level localisation
+* Larger PDF corpus support
+* Improved OCR handling for low-quality scans
+* Stronger metadata extraction
+* Better comparable-product reasoning
+* More detailed export and reporting support
+
+## Author
+
+**Sri Akash Kadali**
+
+## Purpose
+
+This project was developed as part of a take-home assignment to demonstrate a practical approach for AI-powered datasheet retrieval across manufacturer PDFs.
