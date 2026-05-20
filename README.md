@@ -6,7 +6,7 @@ This project was built to handle real PDF documents that are not always clean or
 
 ## Snapshot
 
-![System Status](screenshots/1.png)
+![System Status](Images/1.png)
 
 The application includes:
 - PDF ingestion and parsing
@@ -59,19 +59,19 @@ Some example query styles it is designed to support are:
 
 This page gives a quick view of the running system, including backend connection, indexed chunks, and enabled retrieval components.
 
-![System Settings](screenshots/1.png)
+![System Settings](Images/1.png)
 
 ### 2. Submission and run commands
 
 I also kept the execution steps visible in the app so the workflow is easier to reproduce and verify.
 
-![Commands and Diagnostics](screenshots/2.png)
+![Commands and Diagnostics](Images/2.png)
 
 ### 3. Document ingestion view
 
 The documents page shows parsing status, indexing status, PDF type, chunk counts, and extraction method for each file.
 
-![Documents Page](screenshots/3.png)
+![Documents Page](Images/3.png)
 
 ## Workflow
 
