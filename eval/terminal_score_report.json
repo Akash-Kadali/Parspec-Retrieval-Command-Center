@@ -1,0 +1,127 @@
+{
+  "total_score": 188,
+  "max_score": 188,
+  "percent": 100.0,
+  "grade": "Excellent / submission-ready",
+  "checks": [
+    {
+      "name": "Backend health",
+      "score": 10,
+      "max_score": 10,
+      "status": "PASS",
+      "details": "{\"status\": \"ok\", \"version\": \"0.1.0\"}"
+    },
+    {
+      "name": "PDF corpus loaded",
+      "score": 10,
+      "max_score": 10,
+      "status": "PASS",
+      "details": "pdfs_loaded=6"
+    },
+    {
+      "name": "Chunks created",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": "chunks_indexed=24"
+    },
+    {
+      "name": "Index built",
+      "score": 10,
+      "max_score": 10,
+      "status": "PASS",
+      "details": "index_built=True"
+    },
+    {
+      "name": "OCR available",
+      "score": 8,
+      "max_score": 8,
+      "status": "PASS",
+      "details": "ocr_available=True"
+    },
+    {
+      "name": "Dense retrieval available",
+      "score": 8,
+      "max_score": 8,
+      "status": "PASS",
+      "details": "dense_embeddings_enabled=True"
+    },
+    {
+      "name": "BM25 available",
+      "score": 8,
+      "max_score": 8,
+      "status": "PASS",
+      "details": "bm25_enabled=True"
+    },
+    {
+      "name": "Cross-encoder available",
+      "score": 8,
+      "max_score": 8,
+      "status": "PASS",
+      "details": "cross_encoder_available=True"
+    },
+    {
+      "name": "Document metadata quality",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": "documents=6, parsed=6, indexed=6, document_chunks=24"
+    },
+    {
+      "name": "Spec-heavy downlight query",
+      "score": 20,
+      "max_score": 20,
+      "status": "PASS",
+      "details": "results=5, matched_terms=['black']"
+    },
+    {
+      "name": "Model-number KBF514 query",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": "results=2, matched_terms=['kbf514', 'karran', 'faucet']"
+    },
+    {
+      "name": "Comparable product query",
+      "score": 10,
+      "max_score": 10,
+      "status": "PASS",
+      "details": "results=4, matched_terms=['kbf514', 'karran', 'faucet']"
+    },
+    {
+      "name": "Whole-house fan query",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": "results=5, matched_terms=['qc-es-1500', 'quietcool']"
+    },
+    {
+      "name": "High-bay table/model query",
+      "score": 15,
+      "max_score": 15,
+      "status": "PASS",
+      "details": "results=5, matched_terms=['fcy0815', '8508', '55.2', 'high bay']"
+    },
+    {
+      "name": "No-match wire query",
+      "score": 7,
+      "max_score": 7,
+      "status": "PASS",
+      "details": "results=5, high_conf_result=False"
+    },
+    {
+      "name": "Evidence endpoint",
+      "score": 8,
+      "max_score": 8,
+      "status": "PASS",
+      "details": "evidence_items=6"
+    },
+    {
+      "name": "Evaluation endpoint",
+      "score": 6,
+      "max_score": 6,
+      "status": "PASS",
+      "details": "evaluation endpoint responded"
+    }
+  ]
+}

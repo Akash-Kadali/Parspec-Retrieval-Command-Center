@@ -1,0 +1,91 @@
+{
+  "file": "cRC-DI.pdf",
+  "filename": "cRC-DI.pdf",
+  "pdf_type": "multi_col",
+  "confidence": 0.9,
+  "page_count": 1,
+  "diagnostics": {
+    "total_chars": 1367,
+    "chars_per_page": 1367.0,
+    "total_pages": 1,
+    "page_chars": [
+      1367
+    ],
+    "multi_col_pages": 0,
+    "multi_col_ratio": 0.0,
+    "detected_tables": 1,
+    "reason": "standard native text PDF",
+    "base_pdf_type": "native",
+    "layout_diagnostics": {
+      "multi_column_pages": 0,
+      "known_layout_heavy_name": true,
+      "page_layout": [
+        {
+          "text_blocks": 25,
+          "x_clusters": 4,
+          "left_blocks": 25,
+          "right_blocks": 0,
+          "x_spread": 188.39,
+          "page_width": 612.0,
+          "wide_x_spread": false,
+          "column_like": false,
+          "reason": "multiple x-position clusters",
+          "page": 1
+        }
+      ]
+    },
+    "pdf_type_override": {
+      "from": "native",
+      "to": "multi_col",
+      "reason": "native text is extractable, but page layout is column/brochure-style"
+    },
+    "extraction_evidence": {
+      "pymupdf_total_chars": 1369,
+      "pdfplumber_total_chars": 1342
+    }
+  },
+  "extraction_method": "column_aware",
+  "tables_detected": 1,
+  "chunks_created": 2,
+  "indexed_chunks": 2,
+  "excluded_chunks": 0,
+  "sample_text": "cRC\nLED\nDIFIXTURE\nSUSPENDED DIRECT INDIRECT\nP R E L I M I N A R Y D E S I G N\nA DESIGN SHOWN IN THIS FORMAT REPRESENTS A WORK IN PROGRESS THAT IS LIKELY TO BECOME A STANDARD OFFERING\nPLEASE REACH OUT TO YOUR RESPECTIVE ESI REPRESENTATIVE WITH QUESTIONS OR INTERESTS\nGENERAL DETAILS AND BENEFITS\nThe RC direct indirect fixture is the perfect office light-\ning solution for ambient light coverage of the room and\nceiling.\nThis fixture utilizes two sets of LED strips to light above\nand below the suspen",
+  "warnings": [
+    "Column-aware extraction used for brochure/layout-heavy PDF."
+  ],
+  "page_tokens": [
+    {
+      "page": 1,
+      "tokens": 229,
+      "chars": 1342
+    }
+  ],
+  "comparison": {
+    "pymupdf_page_lengths": [
+      1369
+    ],
+    "pdfplumber_page_lengths": [
+      1342
+    ]
+  },
+  "layout": {
+    "multi_column_pages": 0,
+    "known_layout_heavy_name": true,
+    "page_layout": [
+      {
+        "text_blocks": 25,
+        "x_clusters": 4,
+        "left_blocks": 25,
+        "right_blocks": 0,
+        "x_spread": 188.39,
+        "page_width": 612.0,
+        "wide_x_spread": false,
+        "column_like": false,
+        "reason": "multiple x-position clusters",
+        "page": 1
+      }
+    ]
+  },
+  "pymupdf_preview": "SUSPENDED DIRECT INDIRECT\ncRCDI\nLED\nFIXTURE\nUSA DESIGNED • USA MANUFACTURED • USA ASSEMBLED\nENERGY SOLUTIONS INTERNATIONAL   •   WEST ST PAUL, MN   •   WWW.ESILIGHTING.COM   •   (651) 268 - 6060\nWATTAGE\nLUMENS\nCOLOR \nTEMPERATURE\nL70\n20W - 60W\n3000 - 9000\n3500K - 5000K\n4’ LENGTH\n8’ LENGTH\n40W - 120W\n6000 - 18000\n150,000 +\n*LUMEN OUTPUTS AND L70 HOURS ARE ESTIMATIONS\nP R E L I M I N A R Y  D E S I G N\nA DESIGN SHOWN IN THIS FORMAT REPRESENTS A WORK IN PROGRESS THAT IS LIKELY TO BECOME A STANDARD O",
+  "pdfplumber_preview": "cRC\nLED\nDIFIXTURE\nSUSPENDED DIRECT INDIRECT\nP R E L I M I N A R Y D E S I G N\nA DESIGN SHOWN IN THIS FORMAT REPRESENTS A WORK IN PROGRESS THAT IS LIKELY TO BECOME A STANDARD OFFERING\nPLEASE REACH OUT TO YOUR RESPECTIVE ESI REPRESENTATIVE WITH QUESTIONS OR INTERESTS\nGENERAL DETAILS AND BENEFITS\nThe RC direct indirect fixture is the perfect office light-\ning solution for ambient light coverage of the room and\nceiling.\nThis fixture utilizes two sets of LED strips to light above\nand below the suspen"
+}

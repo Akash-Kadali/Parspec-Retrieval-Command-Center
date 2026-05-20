@@ -1,0 +1,91 @@
+{
+  "file": "QC-ES-1500-RF.pdf",
+  "filename": "QC-ES-1500-RF.pdf",
+  "pdf_type": "multi_col",
+  "confidence": 0.9,
+  "page_count": 1,
+  "diagnostics": {
+    "total_chars": 1089,
+    "chars_per_page": 1089.0,
+    "total_pages": 1,
+    "page_chars": [
+      1089
+    ],
+    "multi_col_pages": 0,
+    "multi_col_ratio": 0.0,
+    "detected_tables": 1,
+    "reason": "standard native text PDF",
+    "base_pdf_type": "native",
+    "layout_diagnostics": {
+      "multi_column_pages": 1,
+      "known_layout_heavy_name": false,
+      "page_layout": [
+        {
+          "text_blocks": 60,
+          "x_clusters": 5,
+          "left_blocks": 28,
+          "right_blocks": 31,
+          "x_spread": 435.53,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        }
+      ]
+    },
+    "pdf_type_override": {
+      "from": "native",
+      "to": "multi_col",
+      "reason": "native text is extractable, but page layout is column/brochure-style"
+    },
+    "extraction_evidence": {
+      "pymupdf_total_chars": 1090,
+      "pdfplumber_total_chars": 1083
+    }
+  },
+  "extraction_method": "column_aware",
+  "tables_detected": 1,
+  "chunks_created": 1,
+  "indexed_chunks": 1,
+  "excluded_chunks": 0,
+  "sample_text": "QC ES-1500 RF Specifications\nAir Flow 1,434 CFM\nHVI-916 Airflow (for CA Title 24 New Construction) 1,010 CFM\nRecommended SQFT Coverage @ 2-3 CFM per SQFT Covers 478 SQFT to 717 SQFT\nEnergy Use 64.5 Watts\nAmps 0.91\nMotor Voltage 120 VAC, 60 Hz\n# of Speeds 1\ndBA 37.2\nMinimum Attic Clearance 32”\nDuct Diameter 14”\nDuct Length 6 feet\nMotor Head Diameter 14 1/2”\nMotor Head Length 13 1/2”\nDampers Barometric Pressurized R5 Dampers\nControls Included IT-36003 QuietCool Wireless RF Control Kit with\nGlass W",
+  "warnings": [
+    "Column-aware extraction used for brochure/layout-heavy PDF."
+  ],
+  "page_tokens": [
+    {
+      "page": 1,
+      "tokens": 182,
+      "chars": 1083
+    }
+  ],
+  "comparison": {
+    "pymupdf_page_lengths": [
+      1090
+    ],
+    "pdfplumber_page_lengths": [
+      1083
+    ]
+  },
+  "layout": {
+    "multi_column_pages": 1,
+    "known_layout_heavy_name": false,
+    "page_layout": [
+      {
+        "text_blocks": 60,
+        "x_clusters": 5,
+        "left_blocks": 28,
+        "right_blocks": 31,
+        "x_spread": 435.53,
+        "page_width": 612.0,
+        "wide_x_spread": true,
+        "column_like": true,
+        "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+        "page": 1
+      }
+    ]
+  },
+  "pymupdf_preview": "QC ES-1500 RF Specifications\n1,434 CFM\n1,010 CFM\nCovers 478 SQFT to 717 SQFT\n64.5 Watts\n0.91\n120 VAC, 60 Hz\n1\n37.2\n32” \n14”\n6 feet\n14 1/2”\n13 1/2”\nBarometric Pressurized R5 Dampers\nIncluded IT-36003 QuietCool Wireless RF Control Kit with \nGlass Wireless RF Switch\n10 Years\nNone Required\nNone Required; fits 16” or 24” on center\n1.92 SQ FT net free area\n14 1/4” x 14 1/4”\n16” x 16”\n40 lbs.\n20” x 20” x 38”\nAir Flow\nHVI-916 Airflow (for CA Title 24 New Construction)\nRecommended SQFT Coverage @ 2-3 CFM",
+  "pdfplumber_preview": "QC ES-1500 RF Specifications\nAir Flow 1,434 CFM\nHVI-916 Airflow (for CA Title 24 New Construction) 1,010 CFM\nRecommended SQFT Coverage @ 2-3 CFM per SQFT Covers 478 SQFT to 717 SQFT\nEnergy Use 64.5 Watts\nAmps 0.91\nMotor Voltage 120 VAC, 60 Hz\n# of Speeds 1\ndBA 37.2\nMinimum Attic Clearance 32”\nDuct Diameter 14”\nDuct Length 6 feet\nMotor Head Diameter 14 1/2”\nMotor Head Length 13 1/2”\nDampers Barometric Pressurized R5 Dampers\nControls Included IT-36003 QuietCool Wireless RF Control Kit with\nGlass W"
+}

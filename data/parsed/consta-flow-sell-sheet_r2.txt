@@ -1,0 +1,75 @@
+===== PAGE 1 =====
+Consta-Flow
+® Airflow System Controller
+Reduce Energy Use  •  Provide Cost Savings  •  Improve System Performance
+Concept
+• Variable Frequency Drive with PLC and Logic Automatically Controls Airflow 
+• Keeps the System Airflow Always at a Constant Velocity 
+• Adjusts Real-time for Pressure Drop Increases and Decreases 
+• When the Filters are Clean, Less Electricity is Consumed, Money is Saved 
+• When Less Workstations are Operating, Airflow is Decreased, Money is Saved
+Background
+Most motors that run dust collector blowers operate at full speed and the system airflow is controlled  
+by using mechanical dampers on the blower outlet. The damper method to control the airflow is an  
+inefficient use of electricity and the airflow of the system often becomes unbalanced due to the 
+damper not being adjusted properly. The motors are always running at full speed and at full cost.
+By using the IWI Consta-Flow Controller, the dust collection system remains in a balanced state 
+and the electricity consumption is optimized.
+Reasoning
+The horsepower required to drive the blower changes with the pressure requirement. When 
+the pressure is low (clean filters), the blower only requires approximately 60% to 70% of its full 
+potential. By controlling the blowers potential, we are able to only consume the electricity needed 
+to effectively operate the dust collection system. At 80% speed, only 51% of full load power is 
+required. At 60% speed, 75% less energy is required.
+Compare the energy savings possible with a Consta-Flow Variable Frequency Drive to the savings with No Flow Control.
+100
+Constant Speed, No Flow Control
+Power Consumption (%)
+75
+50
+25
+Consta-Flow VFD
+0
+25
+0
+75
+50
+100
+
+Flow (%)
+
+
+===== PAGE 2 =====
+Consta-Flow
+® Airflow System Controller
+Reduce Energy Use  •  Provide Cost Savings  •  Improve System Performance
+Specifics
+• Can Be Added to Existing Motor Controls or as a Complete Retrofit 
+• Easy to Use and Safe to Operate 
+• Diagnostic Features Can be Included 
+• Data Logging Capabilities are Available
+Overall Benefits of Consta-Flow
+• System Airflow Remains Constant – Capture and Conveying Velocities Remain Constant 
+• Reduces Electricity Costs 
+• Increased Filter Life Due to a More Consistent Airflow/Loading 
+• Decreases Operating Costs of Replacement Filters and Downtime for Filter Change-Outs 
+• Reduces Blower Speed and Wear 
+• Match Blower Output to Filter Pressure Drop 
+• Eliminates Dependence on Mechanical Dampers to Balance System 
+• Reduces Maintenance Cost 
+• Reduces Motor and Bearing Stresses
+Install Variable Frequency Drives on Additional Equipment
+• HVAC Systems – Fans for Supply and Return Air	
+• Cooling Towers	
+• Boilers
+• Pumps for Chilled Water Distribution	
+• Waste Water Treatment	
+• Chillers
+Often motors that run these devices operate at full speed and the system uses dampers and valves 
+to control air and water flow. This is not an efficient use of energy. A variable frequency drive with 
+logic will improve system performance and energy consumption will be reduced.
+Let us analyze your system for free and we will show you how much money you can save. The 
+Consta-Flow is a ROI (Return on Investment) Solution with payback often less than One (1) Year.
+IWI Incorporated
+1399 Rockefeller Rd., Wickiffe, OH 444092
+Phone: 440.585.5900 • 800.338.5332 • Fax: 440.585.2570 • www.iwiinc.com

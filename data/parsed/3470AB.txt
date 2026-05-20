@@ -1,0 +1,177 @@
+===== PAGE 1 =====
+Feature
+600# WOG (non-shock)
+Lead free brass construction
+¼ turn operation
+Full port
+Adjustable packing
+Blow-out proof stem
+Integral hose end drain/purge valve
+PEX end x FNPT tailpiece (ASME B1.20.1-NPT) 
+Integral relief valve port (3/4")
+   3470RAB: 200K BTU/hr relief
+AB1953, NSF/ANSI/CAN 61 & 372 certified
+3471AB: Hot valve operation (red handle) 
+3472AB: Cold valve operation (blue handle)
+Material
+Part
+Material
+Specification
+1
+Body
+Lead Free Brass
+ASTM B927 C27450
+2
+Fixed end
+Lead Free Brass
+ASTM B927 C27450
+3
+Ball
+Lead Free Brass / Cr plated
+ASTM B927 C27450
+4
+Seat
+PTFE
+PTFE
+5
+Stem
+Lead Free Brass
+ASTM B927 C27450
+6
+Packing ring
+PTFE
+PTFE
+7
+Packing nut
+Brass
+ASTM B124 C37700
+8
+T-handle
+Aluminum
+ASTM B85
+9
+Handle nut
+Steel /Zn plated
+ASTM A36
+10
+Handle screw
+Steel /Zn plated
+ASTM A36
+11
+Handle
+Aluminum
+ASTM B85
+12
+Stem
+Lead Free Brass
+ASTM B927 C27450
+13
+Union nut
+Brass
+ASTM B283 C37700
+14
+Union
+Lead Free Brass
+ASTM B927 C27450
+15
+O-ring
+EPDM Perox
+NSF approved
+16
+Cap retainer
+Rubber
+-
+17
+Drain cap
+Brass
+ASTM B283 C37700
+18
+Drain gasket
+EPDM Perox
+NSF approved
+19
+Ball
+Lead Free Brass / Cr plated
+ASTM B927 C27450
+20
+Seat
+PTFE
+PTFE
+21
+Fixed end
+Lead Free Brass
+ASTM B927 C27450
+Dimension, Weight
+Φ
+ΦP
+A
+B
+H
+Wt.*
+[in]
+[in]
+[in]
+[in]
+[in]
+[lb]
+¾”
+¾ - 14NPT
+0.60
+4.69
+2.35
+1.66
+1.47 / 1.35
+Size
+* 3471AB / 3472AB
+redwhitevalvecorp.com
+
+RED-WHITE VALVE CORP.
+
+WARNING: This product can expose you to chemicals including lead, which is known to the State of California to 
+cause cancer and birth defects or other reproductive harm. For more information go to www. P65Warnings.ca.gov.
+Drawings, photos and data are provided for information only and subject to change without notice. No part of this document may be reproduced, 
+copied, modified or adapted, without the prior written consent of the copyright owner, unless otherwise indicated.
+The Drinking Water Act has defined lead free as having the average wetted surface ratio of the fixture to contain less than .25% of lead per volume.
+
+3470AB 
+3470AB 
+Lead Free Brass PEX (F1960) Tankless Water Heater Valve Kit
+
+ECO-VALVE
+10 
+ 9
+11
+12
+5 
+ 13
+=NQ=
+=N=
+15
+16
+20 
+ 4
+21
+19 
+ 3
+18
+17
+3471AB
+3472AB
+P L QJ NQ= k mq
+A
+H
+B
+P
+3/4 PEX F1960
+© 2024 RED-WHITE VALVE CORP. All Rights Reserved
+
+8
+7
+For Fig. 3472AB
+6
+=O=
+H
+P
+3/4 PEX F1960
+[240822]
+pg1/1

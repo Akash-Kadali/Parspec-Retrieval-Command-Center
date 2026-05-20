@@ -1,0 +1,732 @@
+===== PAGE 1 =====
+FCY  LED Value High Bay
+8,000 to 36,000 lumens
+Day-Brite / CFI FCY value high bay is an economical combination of solid performance 
+and quality construction. This product is ideally suited for use in mid- to high ceiling 
+applications including industrial, warehouses, gymnasiums, and big box retail.
+CCT with 
+Select Switch
+Lumen 
+Select Switch
+Ordering guide	
+ Example: FCY1524L8CST-UNV-DIM
+Series
+Lumens¹ (nominal)
+Color (CRI/CCT)
+Voltage
+Driver
+Options
+  —
+  —
+FCY	 Value high bay  
+LED dual select
+0815L	 8000/12000/15000lm
+1524L	 15000/18000/24000lm
+2436L	 24000/30000/36000lm
+1.	 Nominal delivered lumens at 25°C ambient.
+2.	 For areas where luminaires are subject to high impact (gymnasiums, etc), rigid pendant hanging 
+is not to be used. Use hook or cable/chain assembly for mounting in these areas.  
+Pendant hanger and surface bracket cannot be used with emergency battery versions.
+3.	 Wire guards are strongly suggested to be used in areas where luminaires are subject to high impact (gymnasiums, etc).  
+Use provided screws to hold suspending hooks in place when using wire guards.
+Note: Many luminaire components, such as reflectors, lenses, sockets, lampholders, and LEDs are made from various types  
+of plastics which can be adversely affected by airborne contaminants. If sulfur based chemicals, petroleum based products,  
+cleaning solutions, or other contaminants are expected in the intended area of use, consult factory for compatibility.
+Accessories (order separately)
+•	 FCY-PENHGR242	 Pendant hanger accessory for FCY0815L and FCY1524L (adds 2.5" to height)
+•	 FCY-PENHGR362	 Pendant hanger accessory for FCY2436L (adds 2.5" to height)
+•	 FCY-SBK242	
+Surface bracket kit for FCY0815L and FCY1524L (adds 2.5" to height)
+•	 FCY-SBK362	
+Surface bracket kit for FCY2436L (adds 2.5" to height)
+•	 FCY-WG153	
+Wire guard accessory for FCY0815L
+•	 FCY-WG243	
+Wire guard accessory for FCY1524L
+•	 FCY-WG363	
+Wire guard accessory for FCY2436L
+•	 FCY-SENSOR	
+Field installed microwave sensor
+•	 FCY-REMOTE	
+Remote hand-held programmer for FCY-SENSOR
+Features
+•	Die formed sheet metal housing and end plates.
+•	Corrosion resistant gloss white paint after 
+fabrication finish.
+•	V-hooks and 40" chains supplied (set of 2)  
+for installation.
+•	Lumen maintenance up to 70% (L70)  
+at 100,000 hours.
+•	Luminaire comes standard as field installable 
+sensor ready. Sensor sold separately.  
+See page 2 for sensor information.
+•	Access plate located on top of housing  
+for easy wiring.
+•	Frosted acrylic diffuser provides wide light 
+distribution and superior glare control.
+•	Field CCT selectable for 4000K or 5000K. 
+Factory default setting is 4000K.
+FCY gen2 spec sheet  07/24  page 1 of 4
+
+UNV
+Auto Sensing
+120-277V
+
+UN3
+Auto Sensing
+120-347V
+8CST	 Color Select 80 CRI 
+4000/5000K CCT
+UNV	 Universal 120-277V
+UN3	 Universal 120-347V
+DIM	 0-10v dimming 
+EM	 External mounted       
+emergency battery  
+(see details in Emergency 
+Battery features section)
+•	Complies with FCC Rules and  
+Regulations Part 15 Subpart B Class A.
+•	Field selectable lumens. Factory default 
+setting is highest lument output.
+•	Driver surge protection is  
+6kV L-N and 6kV LN-GND.
+•	cULus listed for use in damp locations
+•	Components are RoHS compliant
+•	DesignLights Consortium qualified.  
+Please see the DLC QPL list for exact catalog 
+numbers (http://www.designlights.org/QPL)
+•	Five year limited luminaire warranty.  
+Visit www.signify.com/warranties for  
+complete warranty information.
+
+Industrial
+FCY Value High Bay
+8,000 to 36,000 lumens
+
+FCY-SBK
+FCY-PENHGR
+FCY-REMOTE
+FCY-WG
+FCY-SENSOR
+Ambient Temperature Data
+Configuration
+Standard Ambient
+FCY0815L8CST-UNV
+-40°C to 50°C
+FCY0815L8CST-UN3
+-40°C to 50°C
+FCY1524L8CST-UNV
+-40°C to 45°C
+FCY1524L8CST-UN3
+-40°C to 45°C
+FCY2436L8CST-UNV
+-30°C to 45°C
+FCY2436L8CST-UN3
+-30°C to 45°C
+Emergency Battery
+Configuration
+Battery Wattage Estimated Lumens
+FCY0815L8CST-UNV/UN3
+8W
+1200
+FCY1524L8CST-UNV/UN3
+15W
+2250
+FCY2436L8CST-UNV/UN3
+24W
+3600
+
+Project:
+Location:
+Cat.No:
+Type:
+Qty:
+Notes:
+
+
+===== PAGE 2 =====
+FCY  LED Value High Bay
+8,000 to 36,000 lumens
+Dimensions
+FCY0815
+with PENHGR or SBK
+15⅝ in
+398 mm
+Dimensions (emergency)
+FCY0815 with EM
+FCY gen2 spec sheet  07/24  page 2 of 4
+
+2½ in 
+ 
+63 mm
+1⅞ in 
+ 
+48 mm
+9⅞ in 
+ 
+250 mm
+1⅞ in 
+ 
+48 mm
+3⅛ in 
+ 
+80 mm
+1⅞ in 
+ 
+48 mm
+
+FCY1524
+with PENHGR or SBK
+17⅝ in 
+ 
+448 mm
+FCY1524 with EM
+
+2½ in 
+ 
+63 mm
+1⅞ in 
+ 
+48 mm
+9⅞ in 
+ 
+250 mm
+1⅞ in 
+ 
+48 mm
+4 in 
+ 
+102 mm
+1⅞ in 
+ 
+48 mm
+
+FCY2436
+with PENHGR or SBK
+24½ in 
+ 
+622 mm
+FCY2436 with EM
+
+2½ in 
+ 
+63 mm
+1⅞ in 
+ 
+48 mm
+14⅛ in 
+ 
+360 mm
+1⅞ in 
+ 
+48 mm
+4 in 
+ 
+102 mm
+1⅞ in 
+ 
+48 mm
+
+
+===== PAGE 3 =====
+FCY  LED Value High Bay
+8,000 to 36,000 lumens
+Motion Detection Operation
+Sensor turns ON light  
+when motion is detected.
+Sensor keeps for a  
+hold time period after 
+motion leaves.
+Daylight Operation
+With sufficient daylight, 
+the sensor keeps light 
+OFF even motion gets 
+detected.
+Microwave Sensor
+•	 Field installed into  
+sensor socket
+•	 Microwave sensor with  
+motion and daylighting
+•	 Maximum mounting height: 49ft
+•	 Handheld remote programmer  
+used to change settings
+FCY gen2 spec sheet  07/24  page 3 of 4
+
+With insufficient daylight, 
+the sensor turns light 
+ON when motion gets 
+detected.
+•	 Default Settings: 
+Hold Time: 5 seconds	  
+Standby Dim Level : 10% 
+Standby Time : 0 seconds 
+Daylighting: Disabled
+
+Hold time
+Stand-by 
+period
+
+Sensor dims light to 
+standby dimming level 
+after hold time if there 
+is still no motion.
+After there's no motion 
+detected, the sensor 
+keeps light ON 100% for 
+holdtime.
+
+Sensor turns OFF light 
+after standby period.
+Hold time
+Stand-by 
+period
+After holdtime, sensor dims 
+light to standby dimming 
+level for standby period. If 
+standby period has been set 
+as Os, sensor turns light OFF 
+automatically after holdtime.
+Ceiling Mounted
+Mounting height (ft)
+10
+20
+30
+40
+50
+60
+0
+6½
+6½
+13
+13
+19½
+19½
+26
+26
+32½
+32½
+Distance (ft)
+
+The sensor turns OFF 
+light automatically after 
+the standby period 
+when there's no motion 
+detected.
+
+
+===== PAGE 4 =====
+FCY  LED Value High Bay
+8,000 to 36,000 lumens
+Photometry
+FCY2436L8CST-UNV-DIM-24L-4000K
+Luminaire Lumens
+24860
+Luminaire Efficacy Rating (LER)
+155
+Total Luminaire Watts
+160.5
+Spacing Criterion (0-180)
+1.30
+135
+90
+45
+Photometric Test List
+Catalog Number
+Delivered 
+Lumens
+Input 
+Watts
+Efficacy
+FCY0815L8CST-UNV-DIM-8L-4000K
+8508
+55.2
+154
+FCY0815L8CST-UNV-DIM-12L-4000K
+12011
+80.5
+149
+FCY0815L8CST-UNV-DIM-15L-4000K
+15034
+104.0
+145
+FCY1524L8CST-UNV-DIM-15L-4000K
+15846
+100.9
+157
+FCY1524L8CST-UNV-DIM-18L-4000K
+18981
+123.4
+154
+FCY1524L8CST-UNV-DIM-24L-4000K
+23773
+162.4
+146
+FCY2436L8CST-UNV-DIM-24L-4000K
+24860
+160.5
+155
+FCY2436L8CST-UNV-DIM-30L-4000K
+30564
+202.2
+151
+FCY2436L8CST-UNV-DIM-36L-4000K
+36011
+244.6
+147
+© 2024 Signify Holding. All rights reserved. The information provided herein  
+is subject to change, without notice. Signify does not give any representation  
+or warranty as to the accuracy or completeness of the information included  
+herein and shall not be liable for any action in reliance thereon. The information  
+presented in this document is not intended as any commercial offer and does  
+not form part of any quotation or contract, unless otherwise agreed by Signify.
+FCY gen2 spec sheet  07/24  page 4 of 4
+FCY gen2 spec sheet  07/24  page 4 of 4
+
+Candela Distribution
+Flux
+0
+45
+90
+135
+180
+Lumens
+0
+11242
+11242
+11242
+11242
+11242
+5
+11237
+11221
+11209
+11197
+11172
+1060
+15
+10985 10925
+10911
+10867
+10827
+3066
+25
+10367
+10320 10256 10209
+10151
+4722
+35
+9153
+9055
+9068
+8962
+8765
+5541
+180
+45
+6333
+5902
+5917
+5752
+5730
+4479
+55
+2656
+2877
+3381
+2918
+2413
+2681
+135
+65
+1410
+1731
+2046
+1766
+1267
+1715
+75
+1101
+1129
+955
+1128
+981
+1138
+85
+396
+398
+503
+458
+368
+425
+90
+31
+37
+2
+35
+30
+90
+45
+0
+90-90
+45-135
+0-180
+
+Catalog Number
+Delivered 
+Lumens
+Input 
+Watts
+Efficacy
+FCY0815L8CST-UNV-DIM-8L-5000K
+8490
+55.9
+152
+FCY0815L8CST-UNV-DIM-12L-5000K
+11890
+81.8
+145
+FCY0815L8CST-UNV-DIM-15L-5000K
+14678
+106.1
+138
+FCY1524L8CST-UNV-DIM-15L-5000K
+15785
+102.3
+154
+FCY1524L8CST-UNV-DIM-18L-5000K
+18624
+125.0
+149
+FCY1524L8CST-UNV-DIM-24L-5000K
+23222
+165.4
+140
+FCY2436L8CST-UNV-DIM-24L-5000K
+24780
+163.4
+152
+FCY2436L8CST-UNV-DIM-30L-5000K
+29995
+206.2
+145
+FCY2436L8CST-UNV-DIM-36L-5000K
+35186
+250.3
+141
+
+Zonal Lumen Summary
+Zone
+Lumens
+%Fixture
+%Lamp
+0-30
+8848
+35.6%
+35.6%
+0-40
+14389
+57.9%
+57.9%
+0-60
+21549
+86.7%
+86.7%
+0-90
+24827
+99.9%
+99.9%
+90-180
+33
+0.1%
+0.1%
+0-180
+24860
+100%
+100%
+Coefficients of Utilization  %  (Based on a floor reflectance of 0.2)
+Pc---
+80
+70
+50
+0
+Pw---
+70
+50
+30
+10
+70
+50
+30
+50
+30
+10
+0
+0
+119
+119
+119
+119
+116
+116
+116
+111
+111
+111
+100
+RCR
+1
+110
+106
+102
+99
+107
+104
+100
+99
+96
+94
+86
+2
+101
+94
+88
+83
+99
+92
+87
+89
+84
+80
+74
+3
+93
+84
+77
+71
+91
+82
+76
+80
+74
+69
+65
+4
+86
+76
+68
+62
+84
+74
+67
+72
+65
+60
+57
+5
+80
+68
+60
+54
+78
+67
+60
+65
+58
+53
+50
+6
+74
+62
+54
+48
+73
+61
+53
+59
+53
+47
+45
+7
+69
+57
+49
+43
+68
+56
+48
+55
+48
+43
+40
+8
+65
+52
+44
+39
+63
+51
+44
+50
+43
+38
+36
+9
+61
+48
+40
+35
+59
+47
+40
+46
+40
+35
+33
+10
+57
+45
+37
+32
+56
+44
+37
+43
+36
+32
+30
+* Based on a floor reflectance of 0.2
+Signify North America Corp. 
+400 Crossing Blvd, Suite 600 
+Bridgewater, NJ 08807 
+Telephone: 800-555-0050
+All trademarks are owned by Signify Holding or their respective owners.
+
+Avg. Luminance (cd/m2)
+0
+45
+90
+45
+43365
+40512
+40517
+55
+22423
+24283
+28539
+65
+16154
+19830
+23442
+75
+20599
+21112
+17863
+85
+22016
+22135
+27916
+Signify Canada Ltd. 
+281 Hillmount Road, 
+Markham, ON, Canada L6C 2S3  
+Telephone: 800-668-9008
+www.genlyte.com

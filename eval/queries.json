@@ -1,0 +1,74 @@
+[
+  {
+    "query": "6\" recessed downlight, 3000K, black trim, dimmable",
+    "expected_file": "cRC-DI",
+    "expected_section": "general",
+    "should_match": true
+  },
+  {
+    "query": "stainless kitchen sink single bowl undermount",
+    "expected_file": "KBF514",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "Karran KBF514",
+    "expected_file": "KBF514",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "KBF514",
+    "expected_file": "KBF514",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "Wall-mounted faucet, chrome, 1.2 GPM, ADA compliant",
+    "expected_file": "KBF514",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "whole house fan 1500 CFM energy saver",
+    "expected_file": "QC-ES-1500-RF",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "LED high bay 36000 lumens warehouse",
+    "expected_file": "Day_Brite_CFI_FCY_LED_High_Bay_Spec_Sheet",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "FCY0815L8CST 8508 lumens 55.2 watts",
+    "expected_file": "Day_Brite_CFI_FCY_LED_High_Bay_Spec_Sheet",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "tankless water heater valve kit 3/4 inch",
+    "expected_file": "3470AB",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "dust collection airflow controller VFD",
+    "expected_file": "consta-flow-sell-sheet_r2",
+    "expected_section": "specs",
+    "should_match": true
+  },
+  {
+    "query": "#12 THHN copper wire 600V",
+    "should_match": false
+  },
+  {
+    "query": "RTU 10 ton gas electric rooftop unit",
+    "should_match": false
+  },
+  {
+    "query": "commercial walk-in freezer evaporator coil defrost heater",
+    "should_match": false
+  }
+]

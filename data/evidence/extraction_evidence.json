@@ -1,0 +1,676 @@
+[
+  {
+    "file": "3470AB.pdf",
+    "filename": "3470AB.pdf",
+    "pdf_type": "multi_col",
+    "confidence": 0.9,
+    "page_count": 1,
+    "diagnostics": {
+      "total_chars": 2334,
+      "chars_per_page": 2334.0,
+      "total_pages": 1,
+      "page_chars": [
+        2334
+      ],
+      "multi_col_pages": 0,
+      "multi_col_ratio": 0.0,
+      "detected_tables": 3,
+      "reason": "standard native text PDF",
+      "base_pdf_type": "native",
+      "layout_diagnostics": {
+        "multi_column_pages": 1,
+        "known_layout_heavy_name": false,
+        "page_layout": [
+          {
+            "text_blocks": 41,
+            "x_clusters": 6,
+            "left_blocks": 13,
+            "right_blocks": 27,
+            "x_spread": 501.76,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 1
+          }
+        ]
+      },
+      "pdf_type_override": {
+        "from": "native",
+        "to": "multi_col",
+        "reason": "native text is extractable, but page layout is column/brochure-style"
+      },
+      "extraction_evidence": {
+        "pymupdf_total_chars": 2335,
+        "pdfplumber_total_chars": 2283
+      }
+    },
+    "extraction_method": "column_aware",
+    "tables_detected": 3,
+    "chunks_created": 23,
+    "indexed_chunks": 23,
+    "excluded_chunks": 0,
+    "sample_text": "ECO-VALVE\n33447700AABB\nLead Free Brass PEX (F1960) Tankless Water Heater Valve Kit\nPart Material Specification\n1 Body Lead Free Brass ASTM B927 C27450 10 9\n2 Fixed end Lead Free Brass ASTM B927 C27450\n11 8\n3 Ball Lead Free Brass / Cr plated ASTM B927 C27450\n4 Seat PTFE PTFE\n5 Stem Lead Free Brass ASTM B927 C27450 7\n6 Packing ring PTFE PTFE 12 For Fig. 3472AB\n7 Packing nut Brass ASTM B124 C37700 6\n8 T-handle Aluminum ASTM B85\n13\n9 Handle nut Steel /Zn plated ASTM A36 5\n10 Handle screw Steel /Zn p",
+    "warnings": [
+      "Column-aware extraction used for brochure/layout-heavy PDF."
+    ],
+    "page_tokens": [
+      {
+        "page": 1,
+        "tokens": 407,
+        "chars": 2283
+      }
+    ],
+    "comparison": {
+      "pymupdf_page_lengths": [
+        2335
+      ],
+      "pdfplumber_page_lengths": [
+        2283
+      ]
+    },
+    "layout": {
+      "multi_column_pages": 1,
+      "known_layout_heavy_name": false,
+      "page_layout": [
+        {
+          "text_blocks": 41,
+          "x_clusters": 6,
+          "left_blocks": 13,
+          "right_blocks": 27,
+          "x_spread": 501.76,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        }
+      ]
+    },
+    "pymupdf_preview": "redwhitevalvecorp.com\n[240822]\npg1/1\nDrawings, photos and data are provided for information only and subject to change without notice. No part of this document may be reproduced, \ncopied, modified or adapted, without the prior written consent of the copyright owner, unless otherwise indicated.\nThe Drinking Water Act has defined lead free as having the average wetted surface ratio of the fixture to contain less than .25% of lead per volume.\nECO-VALVE\nWARNING: This product can expose you to chemic",
+    "pdfplumber_preview": "ECO-VALVE\n33447700AABB\nLead Free Brass PEX (F1960) Tankless Water Heater Valve Kit\nPart Material Specification\n1 Body Lead Free Brass ASTM B927 C27450 10 9\n2 Fixed end Lead Free Brass ASTM B927 C27450\n11 8\n3 Ball Lead Free Brass / Cr plated ASTM B927 C27450\n4 Seat PTFE PTFE\n5 Stem Lead Free Brass ASTM B927 C27450 7\n6 Packing ring PTFE PTFE 12 For Fig. 3472AB\n7 Packing nut Brass ASTM B124 C37700 6\n8 T-handle Aluminum ASTM B85\n13\n9 Handle nut Steel /Zn plated ASTM A36 5\n10 Handle screw Steel /Zn p"
+  },
+  {
+    "file": "Day_Brite_CFI_FCY_LED_High_Bay_Spec_Sheet.pdf",
+    "filename": "Day_Brite_CFI_FCY_LED_High_Bay_Spec_Sheet.pdf",
+    "pdf_type": "multi_col",
+    "confidence": 0.9,
+    "page_count": 4,
+    "diagnostics": {
+      "total_chars": 9407,
+      "chars_per_page": 2351.8,
+      "total_pages": 4,
+      "page_chars": [
+        4033,
+        633,
+        1380,
+        3361
+      ],
+      "multi_col_pages": 2,
+      "multi_col_ratio": 0.5,
+      "detected_tables": 19,
+      "reason": "standard native text PDF",
+      "base_pdf_type": "native",
+      "layout_diagnostics": {
+        "multi_column_pages": 4,
+        "known_layout_heavy_name": true,
+        "page_layout": [
+          {
+            "text_blocks": 64,
+            "x_clusters": 6,
+            "left_blocks": 40,
+            "right_blocks": 21,
+            "x_spread": 415.91,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 1
+          },
+          {
+            "text_blocks": 35,
+            "x_clusters": 6,
+            "left_blocks": 19,
+            "right_blocks": 10,
+            "x_spread": 476.25,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 2
+          },
+          {
+            "text_blocks": 30,
+            "x_clusters": 6,
+            "left_blocks": 17,
+            "right_blocks": 3,
+            "x_spread": 360.26,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 3
+          },
+          {
+            "text_blocks": 89,
+            "x_clusters": 5,
+            "left_blocks": 44,
+            "right_blocks": 35,
+            "x_spread": 485.72,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 4
+          }
+        ]
+      },
+      "pdf_type_override": {
+        "from": "native",
+        "to": "multi_col",
+        "reason": "native text is extractable, but page layout is column/brochure-style"
+      },
+      "extraction_evidence": {
+        "pymupdf_total_chars": 9411,
+        "pdfplumber_total_chars": 11329
+      }
+    },
+    "extraction_method": "column_aware",
+    "tables_detected": 19,
+    "chunks_created": 84,
+    "indexed_chunks": 84,
+    "excluded_chunks": 0,
+    "sample_text": "Industrial\nFCY LED Value High Bay\nFCY Value High Bay\n8,000 to 36,000 lumens\n8,000 to 36,000 lumens\nProject:\nDay-Brite / CFI FCY value high bay is an economical combination of solid performance\nLocation:\nand quality construction. This product is ideally suited for use in mid- to high ceiling\nCat.No:\napplications including industrial, warehouses, gymnasiums, and big box retail.\nType:\nQty:\nUN3 UNV UN3UN3 UNVUNV UN3 UNV Notes:\nLumen Auto Sensing LAuumtoe nSL eunmsienng Auto SCAeCunTts oiwn Sgitehn s",
+    "warnings": [
+      "Column-aware extraction used for brochure/layout-heavy PDF."
+    ],
+    "page_tokens": [
+      {
+        "page": 1,
+        "tokens": 606,
+        "chars": 4215
+      },
+      {
+        "page": 2,
+        "tokens": 280,
+        "chars": 1072
+      },
+      {
+        "page": 3,
+        "tokens": 478,
+        "chars": 2711
+      },
+      {
+        "page": 4,
+        "tokens": 569,
+        "chars": 3331
+      }
+    ],
+    "comparison": {
+      "pymupdf_page_lengths": [
+        4034,
+        634,
+        1381,
+        3362
+      ],
+      "pdfplumber_page_lengths": [
+        4215,
+        1072,
+        2711,
+        3331
+      ]
+    },
+    "layout": {
+      "multi_column_pages": 4,
+      "known_layout_heavy_name": true,
+      "page_layout": [
+        {
+          "text_blocks": 64,
+          "x_clusters": 6,
+          "left_blocks": 40,
+          "right_blocks": 21,
+          "x_spread": 415.91,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        },
+        {
+          "text_blocks": 35,
+          "x_clusters": 6,
+          "left_blocks": 19,
+          "right_blocks": 10,
+          "x_spread": 476.25,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 2
+        },
+        {
+          "text_blocks": 30,
+          "x_clusters": 6,
+          "left_blocks": 17,
+          "right_blocks": 3,
+          "x_spread": 360.26,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 3
+        },
+        {
+          "text_blocks": 89,
+          "x_clusters": 5,
+          "left_blocks": 44,
+          "right_blocks": 35,
+          "x_spread": 485.72,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 4
+        }
+      ]
+    },
+    "pymupdf_preview": "FCY gen2 spec sheet  07/24  page 1 of 4\nFCY  LED Value High Bay\n8,000 to 36,000 lumens\nAccessories (order separately)\n•\t FCY-PENHGR242\t Pendant hanger accessory for FCY0815L and FCY1524L (adds 2.5\" to height)\n•\t FCY-PENHGR362\t Pendant hanger accessory for FCY2436L (adds 2.5\" to height)\n•\t FCY-SBK242\t\nSurface bracket kit for FCY0815L and FCY1524L (adds 2.5\" to height)\n•\t FCY-SBK362\t\nSurface bracket kit for FCY2436L (adds 2.5\" to height)\n•\t FCY-WG153\t\nWire guard accessory for FCY0815L\n•\t FCY-WG243",
+    "pdfplumber_preview": "Industrial\nFCY LED Value High Bay\nFCY Value High Bay\n8,000 to 36,000 lumens\n8,000 to 36,000 lumens\nProject:\nDay-Brite / CFI FCY value high bay is an economical combination of solid performance\nLocation:\nand quality construction. This product is ideally suited for use in mid- to high ceiling\nCat.No:\napplications including industrial, warehouses, gymnasiums, and big box retail.\nType:\nQty:\nUN3 UNV UN3UN3 UNVUNV UN3 UNV Notes:\nLumen Auto Sensing LAuumtoe nSL eunmsienng Auto SCAeCunTts oiwn Sgitehn s"
+  },
+  {
+    "file": "KBF514.pdf",
+    "filename": "KBF514.pdf",
+    "pdf_type": "multi_col",
+    "confidence": 0.9,
+    "page_count": 1,
+    "diagnostics": {
+      "total_chars": 1438,
+      "chars_per_page": 1438.0,
+      "total_pages": 1,
+      "page_chars": [
+        1438
+      ],
+      "multi_col_pages": 0,
+      "multi_col_ratio": 0.0,
+      "detected_tables": 2,
+      "reason": "standard native text PDF",
+      "base_pdf_type": "native",
+      "layout_diagnostics": {
+        "multi_column_pages": 1,
+        "known_layout_heavy_name": false,
+        "page_layout": [
+          {
+            "text_blocks": 89,
+            "x_clusters": 6,
+            "left_blocks": 78,
+            "right_blocks": 8,
+            "x_spread": 486.84,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 1
+          }
+        ]
+      },
+      "pdf_type_override": {
+        "from": "native",
+        "to": "multi_col",
+        "reason": "native text is extractable, but page layout is column/brochure-style"
+      },
+      "extraction_evidence": {
+        "pymupdf_total_chars": 1439,
+        "pdfplumber_total_chars": 1361
+      }
+    },
+    "extraction_method": "column_aware",
+    "tables_detected": 2,
+    "chunks_created": 22,
+    "indexed_chunks": 22,
+    "excluded_chunks": 0,
+    "sample_text": "R\nKBF514\nPRODUCT SPECIFICATION\nShown in Gunmetal Grey\nCollection Venda\nMaterial Lead-free brass\nInstallation Type 8\" Widespread\nConfiguration/Style Basin faucet\nFinish Durable PVD, multi-plated, corrosion resistant\nOverall Height 4 7/8\"\nOverall Spout Reach 5 1/8\"\nOverall Spout Height 4 1/4\"\nMax. Deck Thickness 1 1/8\"\nSuitable For Drop-in and undermount bathroom sinks\nWater Flow 1.2 GPM\nSpout Function Stream\nPlumbing Connections 1/2\"\nCartridge Ceramic disk cartridge\nWhat's Included Pre-installed ",
+    "warnings": [
+      "Column-aware extraction used for brochure/layout-heavy PDF."
+    ],
+    "page_tokens": [
+      {
+        "page": 1,
+        "tokens": 193,
+        "chars": 1361
+      }
+    ],
+    "comparison": {
+      "pymupdf_page_lengths": [
+        1439
+      ],
+      "pdfplumber_page_lengths": [
+        1361
+      ]
+    },
+    "layout": {
+      "multi_column_pages": 1,
+      "known_layout_heavy_name": false,
+      "page_layout": [
+        {
+          "text_blocks": 89,
+          "x_clusters": 6,
+          "left_blocks": 78,
+          "right_blocks": 8,
+          "x_spread": 486.84,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        }
+      ]
+    },
+    "pymupdf_preview": "Karran USA   -   1291 East Ramsey Rd, Vincennes, IN 47591  -  T:  866.452.7726   F:  812.885.2440   -    www.karran.com\nKBF514\nWe reserve the right to update product specifications without notice. Please visit karran.com\nfor the most current specification sheets. All dimensions are accurate to 1/4”. REV 12-2025\nCertified by\nIAPMO R&T\nW\na\nt\ne\nr\nS\ne\nn\ns\ne\nEPA\nCri\nt\ne\nr\ni\na\nM\ne\ne\nt\ns\nListing and certifications:\ncUPC, ASME A112.18.1/CSA B125.1\nLimited Lifetime Warranty\nCollection\nMaterial\nInstallati",
+    "pdfplumber_preview": "R\nKBF514\nPRODUCT SPECIFICATION\nShown in Gunmetal Grey\nCollection Venda\nMaterial Lead-free brass\nInstallation Type 8\" Widespread\nConfiguration/Style Basin faucet\nFinish Durable PVD, multi-plated, corrosion resistant\nOverall Height 4 7/8\"\nOverall Spout Reach 5 1/8\"\nOverall Spout Height 4 1/4\"\nMax. Deck Thickness 1 1/8\"\nSuitable For Drop-in and undermount bathroom sinks\nWater Flow 1.2 GPM\nSpout Function Stream\nPlumbing Connections 1/2\"\nCartridge Ceramic disk cartridge\nWhat's Included Pre-installed "
+  },
+  {
+    "file": "QC-ES-1500-RF.pdf",
+    "filename": "QC-ES-1500-RF.pdf",
+    "pdf_type": "multi_col",
+    "confidence": 0.9,
+    "page_count": 1,
+    "diagnostics": {
+      "total_chars": 1089,
+      "chars_per_page": 1089.0,
+      "total_pages": 1,
+      "page_chars": [
+        1089
+      ],
+      "multi_col_pages": 0,
+      "multi_col_ratio": 0.0,
+      "detected_tables": 1,
+      "reason": "standard native text PDF",
+      "base_pdf_type": "native",
+      "layout_diagnostics": {
+        "multi_column_pages": 1,
+        "known_layout_heavy_name": false,
+        "page_layout": [
+          {
+            "text_blocks": 60,
+            "x_clusters": 5,
+            "left_blocks": 28,
+            "right_blocks": 31,
+            "x_spread": 435.53,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": true,
+            "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+            "page": 1
+          }
+        ]
+      },
+      "pdf_type_override": {
+        "from": "native",
+        "to": "multi_col",
+        "reason": "native text is extractable, but page layout is column/brochure-style"
+      },
+      "extraction_evidence": {
+        "pymupdf_total_chars": 1090,
+        "pdfplumber_total_chars": 1083
+      }
+    },
+    "extraction_method": "column_aware",
+    "tables_detected": 1,
+    "chunks_created": 1,
+    "indexed_chunks": 1,
+    "excluded_chunks": 0,
+    "sample_text": "QC ES-1500 RF Specifications\nAir Flow 1,434 CFM\nHVI-916 Airflow (for CA Title 24 New Construction) 1,010 CFM\nRecommended SQFT Coverage @ 2-3 CFM per SQFT Covers 478 SQFT to 717 SQFT\nEnergy Use 64.5 Watts\nAmps 0.91\nMotor Voltage 120 VAC, 60 Hz\n# of Speeds 1\ndBA 37.2\nMinimum Attic Clearance 32”\nDuct Diameter 14”\nDuct Length 6 feet\nMotor Head Diameter 14 1/2”\nMotor Head Length 13 1/2”\nDampers Barometric Pressurized R5 Dampers\nControls Included IT-36003 QuietCool Wireless RF Control Kit with\nGlass W",
+    "warnings": [
+      "Column-aware extraction used for brochure/layout-heavy PDF."
+    ],
+    "page_tokens": [
+      {
+        "page": 1,
+        "tokens": 182,
+        "chars": 1083
+      }
+    ],
+    "comparison": {
+      "pymupdf_page_lengths": [
+        1090
+      ],
+      "pdfplumber_page_lengths": [
+        1083
+      ]
+    },
+    "layout": {
+      "multi_column_pages": 1,
+      "known_layout_heavy_name": false,
+      "page_layout": [
+        {
+          "text_blocks": 60,
+          "x_clusters": 5,
+          "left_blocks": 28,
+          "right_blocks": 31,
+          "x_spread": 435.53,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        }
+      ]
+    },
+    "pymupdf_preview": "QC ES-1500 RF Specifications\n1,434 CFM\n1,010 CFM\nCovers 478 SQFT to 717 SQFT\n64.5 Watts\n0.91\n120 VAC, 60 Hz\n1\n37.2\n32” \n14”\n6 feet\n14 1/2”\n13 1/2”\nBarometric Pressurized R5 Dampers\nIncluded IT-36003 QuietCool Wireless RF Control Kit with \nGlass Wireless RF Switch\n10 Years\nNone Required\nNone Required; fits 16” or 24” on center\n1.92 SQ FT net free area\n14 1/4” x 14 1/4”\n16” x 16”\n40 lbs.\n20” x 20” x 38”\nAir Flow\nHVI-916 Airflow (for CA Title 24 New Construction)\nRecommended SQFT Coverage @ 2-3 CFM",
+    "pdfplumber_preview": "QC ES-1500 RF Specifications\nAir Flow 1,434 CFM\nHVI-916 Airflow (for CA Title 24 New Construction) 1,010 CFM\nRecommended SQFT Coverage @ 2-3 CFM per SQFT Covers 478 SQFT to 717 SQFT\nEnergy Use 64.5 Watts\nAmps 0.91\nMotor Voltage 120 VAC, 60 Hz\n# of Speeds 1\ndBA 37.2\nMinimum Attic Clearance 32”\nDuct Diameter 14”\nDuct Length 6 feet\nMotor Head Diameter 14 1/2”\nMotor Head Length 13 1/2”\nDampers Barometric Pressurized R5 Dampers\nControls Included IT-36003 QuietCool Wireless RF Control Kit with\nGlass W"
+  },
+  {
+    "file": "cRC-DI.pdf",
+    "filename": "cRC-DI.pdf",
+    "pdf_type": "multi_col",
+    "confidence": 0.9,
+    "page_count": 1,
+    "diagnostics": {
+      "total_chars": 1367,
+      "chars_per_page": 1367.0,
+      "total_pages": 1,
+      "page_chars": [
+        1367
+      ],
+      "multi_col_pages": 0,
+      "multi_col_ratio": 0.0,
+      "detected_tables": 1,
+      "reason": "standard native text PDF",
+      "base_pdf_type": "native",
+      "layout_diagnostics": {
+        "multi_column_pages": 0,
+        "known_layout_heavy_name": true,
+        "page_layout": [
+          {
+            "text_blocks": 25,
+            "x_clusters": 4,
+            "left_blocks": 25,
+            "right_blocks": 0,
+            "x_spread": 188.39,
+            "page_width": 612.0,
+            "wide_x_spread": false,
+            "column_like": false,
+            "reason": "multiple x-position clusters",
+            "page": 1
+          }
+        ]
+      },
+      "pdf_type_override": {
+        "from": "native",
+        "to": "multi_col",
+        "reason": "native text is extractable, but page layout is column/brochure-style"
+      },
+      "extraction_evidence": {
+        "pymupdf_total_chars": 1369,
+        "pdfplumber_total_chars": 1342
+      }
+    },
+    "extraction_method": "column_aware",
+    "tables_detected": 1,
+    "chunks_created": 2,
+    "indexed_chunks": 2,
+    "excluded_chunks": 0,
+    "sample_text": "cRC\nLED\nDIFIXTURE\nSUSPENDED DIRECT INDIRECT\nP R E L I M I N A R Y D E S I G N\nA DESIGN SHOWN IN THIS FORMAT REPRESENTS A WORK IN PROGRESS THAT IS LIKELY TO BECOME A STANDARD OFFERING\nPLEASE REACH OUT TO YOUR RESPECTIVE ESI REPRESENTATIVE WITH QUESTIONS OR INTERESTS\nGENERAL DETAILS AND BENEFITS\nThe RC direct indirect fixture is the perfect office light-\ning solution for ambient light coverage of the room and\nceiling.\nThis fixture utilizes two sets of LED strips to light above\nand below the suspen",
+    "warnings": [
+      "Column-aware extraction used for brochure/layout-heavy PDF."
+    ],
+    "page_tokens": [
+      {
+        "page": 1,
+        "tokens": 229,
+        "chars": 1342
+      }
+    ],
+    "comparison": {
+      "pymupdf_page_lengths": [
+        1369
+      ],
+      "pdfplumber_page_lengths": [
+        1342
+      ]
+    },
+    "layout": {
+      "multi_column_pages": 0,
+      "known_layout_heavy_name": true,
+      "page_layout": [
+        {
+          "text_blocks": 25,
+          "x_clusters": 4,
+          "left_blocks": 25,
+          "right_blocks": 0,
+          "x_spread": 188.39,
+          "page_width": 612.0,
+          "wide_x_spread": false,
+          "column_like": false,
+          "reason": "multiple x-position clusters",
+          "page": 1
+        }
+      ]
+    },
+    "pymupdf_preview": "SUSPENDED DIRECT INDIRECT\ncRCDI\nLED\nFIXTURE\nUSA DESIGNED • USA MANUFACTURED • USA ASSEMBLED\nENERGY SOLUTIONS INTERNATIONAL   •   WEST ST PAUL, MN   •   WWW.ESILIGHTING.COM   •   (651) 268 - 6060\nWATTAGE\nLUMENS\nCOLOR \nTEMPERATURE\nL70\n20W - 60W\n3000 - 9000\n3500K - 5000K\n4’ LENGTH\n8’ LENGTH\n40W - 120W\n6000 - 18000\n150,000 +\n*LUMEN OUTPUTS AND L70 HOURS ARE ESTIMATIONS\nP R E L I M I N A R Y  D E S I G N\nA DESIGN SHOWN IN THIS FORMAT REPRESENTS A WORK IN PROGRESS THAT IS LIKELY TO BECOME A STANDARD O",
+    "pdfplumber_preview": "cRC\nLED\nDIFIXTURE\nSUSPENDED DIRECT INDIRECT\nP R E L I M I N A R Y D E S I G N\nA DESIGN SHOWN IN THIS FORMAT REPRESENTS A WORK IN PROGRESS THAT IS LIKELY TO BECOME A STANDARD OFFERING\nPLEASE REACH OUT TO YOUR RESPECTIVE ESI REPRESENTATIVE WITH QUESTIONS OR INTERESTS\nGENERAL DETAILS AND BENEFITS\nThe RC direct indirect fixture is the perfect office light-\ning solution for ambient light coverage of the room and\nceiling.\nThis fixture utilizes two sets of LED strips to light above\nand below the suspen"
+  },
+  {
+    "file": "consta-flow-sell-sheet_r2.pdf",
+    "filename": "consta-flow-sell-sheet_r2.pdf",
+    "pdf_type": "multi_col",
+    "confidence": 0.9,
+    "page_count": 2,
+    "diagnostics": {
+      "total_chars": 3332,
+      "chars_per_page": 1666.0,
+      "total_pages": 2,
+      "page_chars": [
+        1703,
+        1629
+      ],
+      "multi_col_pages": 0,
+      "multi_col_ratio": 0.0,
+      "detected_tables": 10,
+      "reason": "standard native text PDF",
+      "base_pdf_type": "native",
+      "layout_diagnostics": {
+        "multi_column_pages": 0,
+        "known_layout_heavy_name": true,
+        "page_layout": [
+          {
+            "text_blocks": 18,
+            "x_clusters": 2,
+            "left_blocks": 17,
+            "right_blocks": 0,
+            "x_spread": 207.09,
+            "page_width": 612.0,
+            "wide_x_spread": true,
+            "column_like": false,
+            "reason": "multiple x-position clusters; wide horizontal text spread",
+            "page": 1
+          },
+          {
+            "text_blocks": 11,
+            "x_clusters": 1,
+            "left_blocks": 11,
+            "right_blocks": 0,
+            "x_spread": 26.68,
+            "page_width": 612.0,
+            "wide_x_spread": false,
+            "column_like": false,
+            "reason": "single-column/native-like layout",
+            "page": 2
+          }
+        ]
+      },
+      "pdf_type_override": {
+        "from": "native",
+        "to": "multi_col",
+        "reason": "native text is extractable, but page layout is column/brochure-style"
+      },
+      "extraction_evidence": {
+        "pymupdf_total_chars": 3334,
+        "pdfplumber_total_chars": 3305
+      }
+    },
+    "extraction_method": "column_aware",
+    "tables_detected": 10,
+    "chunks_created": 14,
+    "indexed_chunks": 14,
+    "excluded_chunks": 0,
+    "sample_text": "C F a s C\n- ®\nonsta low irFlow ystem ontroller\nReduce Energy Use • Provide Cost Savings • Improve System Performance\nConcept\n• Variable Frequency Drive with PLC and Logic Automatically Controls Airflow\n• Keeps the System Airflow Always at a Constant Velocity\n• Adjusts Real-time for Pressure Drop Increases and Decreases\n• When the Filters are Clean, Less Electricity is Consumed, Money is Saved\n• When Less Workstations are Operating, Airflow is Decreased, Money is Saved\nBackground\nMost motors that",
+    "warnings": [
+      "Column-aware extraction used for brochure/layout-heavy PDF."
+    ],
+    "page_tokens": [
+      {
+        "page": 1,
+        "tokens": 280,
+        "chars": 1692
+      },
+      {
+        "page": 2,
+        "tokens": 265,
+        "chars": 1613
+      }
+    ],
+    "comparison": {
+      "pymupdf_page_lengths": [
+        1704,
+        1630
+      ],
+      "pdfplumber_page_lengths": [
+        1692,
+        1613
+      ]
+    },
+    "layout": {
+      "multi_column_pages": 0,
+      "known_layout_heavy_name": true,
+      "page_layout": [
+        {
+          "text_blocks": 18,
+          "x_clusters": 2,
+          "left_blocks": 17,
+          "right_blocks": 0,
+          "x_spread": 207.09,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": false,
+          "reason": "multiple x-position clusters; wide horizontal text spread",
+          "page": 1
+        },
+        {
+          "text_blocks": 11,
+          "x_clusters": 1,
+          "left_blocks": 11,
+          "right_blocks": 0,
+          "x_spread": 26.68,
+          "page_width": 612.0,
+          "wide_x_spread": false,
+          "column_like": false,
+          "reason": "single-column/native-like layout",
+          "page": 2
+        }
+      ]
+    },
+    "pymupdf_preview": "Consta-Flow\n® Airflow System Controller\nConcept\n• Variable Frequency Drive with PLC and Logic Automatically Controls Airflow \n• Keeps the System Airflow Always at a Constant Velocity \n• Adjusts Real-time for Pressure Drop Increases and Decreases \n• When the Filters are Clean, Less Electricity is Consumed, Money is Saved \n• When Less Workstations are Operating, Airflow is Decreased, Money is Saved\nBackground\nMost motors that run dust collector blowers operate at full speed and the system airflow ",
+    "pdfplumber_preview": "C F a s C\n- ®\nonsta low irFlow ystem ontroller\nReduce Energy Use • Provide Cost Savings • Improve System Performance\nConcept\n• Variable Frequency Drive with PLC and Logic Automatically Controls Airflow\n• Keeps the System Airflow Always at a Constant Velocity\n• Adjusts Real-time for Pressure Drop Increases and Decreases\n• When the Filters are Clean, Less Electricity is Consumed, Money is Saved\n• When Less Workstations are Operating, Airflow is Decreased, Money is Saved\nBackground\nMost motors that"
+  }
+]

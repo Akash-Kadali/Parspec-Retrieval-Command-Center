@@ -1,0 +1,187 @@
+{
+  "file": "Day_Brite_CFI_FCY_LED_High_Bay_Spec_Sheet.pdf",
+  "filename": "Day_Brite_CFI_FCY_LED_High_Bay_Spec_Sheet.pdf",
+  "pdf_type": "multi_col",
+  "confidence": 0.9,
+  "page_count": 4,
+  "diagnostics": {
+    "total_chars": 9407,
+    "chars_per_page": 2351.8,
+    "total_pages": 4,
+    "page_chars": [
+      4033,
+      633,
+      1380,
+      3361
+    ],
+    "multi_col_pages": 2,
+    "multi_col_ratio": 0.5,
+    "detected_tables": 19,
+    "reason": "standard native text PDF",
+    "base_pdf_type": "native",
+    "layout_diagnostics": {
+      "multi_column_pages": 4,
+      "known_layout_heavy_name": true,
+      "page_layout": [
+        {
+          "text_blocks": 64,
+          "x_clusters": 6,
+          "left_blocks": 40,
+          "right_blocks": 21,
+          "x_spread": 415.91,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        },
+        {
+          "text_blocks": 35,
+          "x_clusters": 6,
+          "left_blocks": 19,
+          "right_blocks": 10,
+          "x_spread": 476.25,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 2
+        },
+        {
+          "text_blocks": 30,
+          "x_clusters": 6,
+          "left_blocks": 17,
+          "right_blocks": 3,
+          "x_spread": 360.26,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 3
+        },
+        {
+          "text_blocks": 89,
+          "x_clusters": 5,
+          "left_blocks": 44,
+          "right_blocks": 35,
+          "x_spread": 485.72,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 4
+        }
+      ]
+    },
+    "pdf_type_override": {
+      "from": "native",
+      "to": "multi_col",
+      "reason": "native text is extractable, but page layout is column/brochure-style"
+    },
+    "extraction_evidence": {
+      "pymupdf_total_chars": 9411,
+      "pdfplumber_total_chars": 11329
+    }
+  },
+  "extraction_method": "column_aware",
+  "tables_detected": 19,
+  "chunks_created": 84,
+  "indexed_chunks": 84,
+  "excluded_chunks": 0,
+  "sample_text": "Industrial\nFCY LED Value High Bay\nFCY Value High Bay\n8,000 to 36,000 lumens\n8,000 to 36,000 lumens\nProject:\nDay-Brite / CFI FCY value high bay is an economical combination of solid performance\nLocation:\nand quality construction. This product is ideally suited for use in mid- to high ceiling\nCat.No:\napplications including industrial, warehouses, gymnasiums, and big box retail.\nType:\nQty:\nUN3 UNV UN3UN3 UNVUNV UN3 UNV Notes:\nLumen Auto Sensing LAuumtoe nSL eunmsienng Auto SCAeCunTts oiwn Sgitehn s",
+  "warnings": [
+    "Column-aware extraction used for brochure/layout-heavy PDF."
+  ],
+  "page_tokens": [
+    {
+      "page": 1,
+      "tokens": 606,
+      "chars": 4215
+    },
+    {
+      "page": 2,
+      "tokens": 280,
+      "chars": 1072
+    },
+    {
+      "page": 3,
+      "tokens": 478,
+      "chars": 2711
+    },
+    {
+      "page": 4,
+      "tokens": 569,
+      "chars": 3331
+    }
+  ],
+  "comparison": {
+    "pymupdf_page_lengths": [
+      4034,
+      634,
+      1381,
+      3362
+    ],
+    "pdfplumber_page_lengths": [
+      4215,
+      1072,
+      2711,
+      3331
+    ]
+  },
+  "layout": {
+    "multi_column_pages": 4,
+    "known_layout_heavy_name": true,
+    "page_layout": [
+      {
+        "text_blocks": 64,
+        "x_clusters": 6,
+        "left_blocks": 40,
+        "right_blocks": 21,
+        "x_spread": 415.91,
+        "page_width": 612.0,
+        "wide_x_spread": true,
+        "column_like": true,
+        "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+        "page": 1
+      },
+      {
+        "text_blocks": 35,
+        "x_clusters": 6,
+        "left_blocks": 19,
+        "right_blocks": 10,
+        "x_spread": 476.25,
+        "page_width": 612.0,
+        "wide_x_spread": true,
+        "column_like": true,
+        "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+        "page": 2
+      },
+      {
+        "text_blocks": 30,
+        "x_clusters": 6,
+        "left_blocks": 17,
+        "right_blocks": 3,
+        "x_spread": 360.26,
+        "page_width": 612.0,
+        "wide_x_spread": true,
+        "column_like": true,
+        "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+        "page": 3
+      },
+      {
+        "text_blocks": 89,
+        "x_clusters": 5,
+        "left_blocks": 44,
+        "right_blocks": 35,
+        "x_spread": 485.72,
+        "page_width": 612.0,
+        "wide_x_spread": true,
+        "column_like": true,
+        "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+        "page": 4
+      }
+    ]
+  },
+  "pymupdf_preview": "FCY gen2 spec sheet  07/24  page 1 of 4\nFCY  LED Value High Bay\n8,000 to 36,000 lumens\nAccessories (order separately)\n•\t FCY-PENHGR242\t Pendant hanger accessory for FCY0815L and FCY1524L (adds 2.5\" to height)\n•\t FCY-PENHGR362\t Pendant hanger accessory for FCY2436L (adds 2.5\" to height)\n•\t FCY-SBK242\t\nSurface bracket kit for FCY0815L and FCY1524L (adds 2.5\" to height)\n•\t FCY-SBK362\t\nSurface bracket kit for FCY2436L (adds 2.5\" to height)\n•\t FCY-WG153\t\nWire guard accessory for FCY0815L\n•\t FCY-WG243",
+  "pdfplumber_preview": "Industrial\nFCY LED Value High Bay\nFCY Value High Bay\n8,000 to 36,000 lumens\n8,000 to 36,000 lumens\nProject:\nDay-Brite / CFI FCY value high bay is an economical combination of solid performance\nLocation:\nand quality construction. This product is ideally suited for use in mid- to high ceiling\nCat.No:\napplications including industrial, warehouses, gymnasiums, and big box retail.\nType:\nQty:\nUN3 UNV UN3UN3 UNVUNV UN3 UNV Notes:\nLumen Auto Sensing LAuumtoe nSL eunmsienng Auto SCAeCunTts oiwn Sgitehn s"
+}

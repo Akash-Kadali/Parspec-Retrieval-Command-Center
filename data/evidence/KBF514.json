@@ -1,0 +1,91 @@
+{
+  "file": "KBF514.pdf",
+  "filename": "KBF514.pdf",
+  "pdf_type": "multi_col",
+  "confidence": 0.9,
+  "page_count": 1,
+  "diagnostics": {
+    "total_chars": 1438,
+    "chars_per_page": 1438.0,
+    "total_pages": 1,
+    "page_chars": [
+      1438
+    ],
+    "multi_col_pages": 0,
+    "multi_col_ratio": 0.0,
+    "detected_tables": 2,
+    "reason": "standard native text PDF",
+    "base_pdf_type": "native",
+    "layout_diagnostics": {
+      "multi_column_pages": 1,
+      "known_layout_heavy_name": false,
+      "page_layout": [
+        {
+          "text_blocks": 89,
+          "x_clusters": 6,
+          "left_blocks": 78,
+          "right_blocks": 8,
+          "x_spread": 486.84,
+          "page_width": 612.0,
+          "wide_x_spread": true,
+          "column_like": true,
+          "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+          "page": 1
+        }
+      ]
+    },
+    "pdf_type_override": {
+      "from": "native",
+      "to": "multi_col",
+      "reason": "native text is extractable, but page layout is column/brochure-style"
+    },
+    "extraction_evidence": {
+      "pymupdf_total_chars": 1439,
+      "pdfplumber_total_chars": 1361
+    }
+  },
+  "extraction_method": "column_aware",
+  "tables_detected": 2,
+  "chunks_created": 22,
+  "indexed_chunks": 22,
+  "excluded_chunks": 0,
+  "sample_text": "R\nKBF514\nPRODUCT SPECIFICATION\nShown in Gunmetal Grey\nCollection Venda\nMaterial Lead-free brass\nInstallation Type 8\" Widespread\nConfiguration/Style Basin faucet\nFinish Durable PVD, multi-plated, corrosion resistant\nOverall Height 4 7/8\"\nOverall Spout Reach 5 1/8\"\nOverall Spout Height 4 1/4\"\nMax. Deck Thickness 1 1/8\"\nSuitable For Drop-in and undermount bathroom sinks\nWater Flow 1.2 GPM\nSpout Function Stream\nPlumbing Connections 1/2\"\nCartridge Ceramic disk cartridge\nWhat's Included Pre-installed ",
+  "warnings": [
+    "Column-aware extraction used for brochure/layout-heavy PDF."
+  ],
+  "page_tokens": [
+    {
+      "page": 1,
+      "tokens": 193,
+      "chars": 1361
+    }
+  ],
+  "comparison": {
+    "pymupdf_page_lengths": [
+      1439
+    ],
+    "pdfplumber_page_lengths": [
+      1361
+    ]
+  },
+  "layout": {
+    "multi_column_pages": 1,
+    "known_layout_heavy_name": false,
+    "page_layout": [
+      {
+        "text_blocks": 89,
+        "x_clusters": 6,
+        "left_blocks": 78,
+        "right_blocks": 8,
+        "x_spread": 486.84,
+        "page_width": 612.0,
+        "wide_x_spread": true,
+        "column_like": true,
+        "reason": "multiple x-position clusters; text blocks on left and right page regions; wide horizontal text spread",
+        "page": 1
+      }
+    ]
+  },
+  "pymupdf_preview": "Karran USA   -   1291 East Ramsey Rd, Vincennes, IN 47591  -  T:  866.452.7726   F:  812.885.2440   -    www.karran.com\nKBF514\nWe reserve the right to update product specifications without notice. Please visit karran.com\nfor the most current specification sheets. All dimensions are accurate to 1/4”. REV 12-2025\nCertified by\nIAPMO R&T\nW\na\nt\ne\nr\nS\ne\nn\ns\ne\nEPA\nCri\nt\ne\nr\ni\na\nM\ne\ne\nt\ns\nListing and certifications:\ncUPC, ASME A112.18.1/CSA B125.1\nLimited Lifetime Warranty\nCollection\nMaterial\nInstallati",
+  "pdfplumber_preview": "R\nKBF514\nPRODUCT SPECIFICATION\nShown in Gunmetal Grey\nCollection Venda\nMaterial Lead-free brass\nInstallation Type 8\" Widespread\nConfiguration/Style Basin faucet\nFinish Durable PVD, multi-plated, corrosion resistant\nOverall Height 4 7/8\"\nOverall Spout Reach 5 1/8\"\nOverall Spout Height 4 1/4\"\nMax. Deck Thickness 1 1/8\"\nSuitable For Drop-in and undermount bathroom sinks\nWater Flow 1.2 GPM\nSpout Function Stream\nPlumbing Connections 1/2\"\nCartridge Ceramic disk cartridge\nWhat's Included Pre-installed "
+}
